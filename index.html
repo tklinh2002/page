@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Trần Khánh Linh 20065731</title>
+  </head>
+  <body>
+    <header>
+      <div class="title">
+        <h1>BÀI TẬP</h1>
+      </div>
+      <div class="login">
+        <form action="">
+          <fieldset>
+            <label for="taikhoan">Tài Khoản: </label>
+            <input
+              type="text"
+              name="txttk"
+              id="txttk"
+              placeholder="số điện thoại"
+              required
+              minlength="10"
+            /><br /><br />
+            <label for="pw"> Mật khẩu:</label>
+            <input type="password" name="txtpw" id="txtpw" />
+          </fieldset>
+        </form>
+      </div>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="">HOME</a></li>
+        <li><a href="">SERVICES</a></li>
+        <li>
+          <a href="">CONTACT</a>
+          <ul class="submenu">
+            <li><a href="">PHONE</a></li>
+            <li><a href="">INTERNET</a></li>
+            <li><a href="">TIVI</a></li>
+          </ul>
+        </li>
+        <li><a href="">ABOUT</a></li>
+        <li><a href="">HElLP</a></li>
+      </ul>
+    </nav>
+    <section>
+      <aside>
+        <article>
+          <h2>HOẠT ĐỘNG ĐOÀN</h2>
+          <img src="img/DHD1-1611500718160.gif" alt="" />
+        </article>
+        <article>
+          <h2>HOẠT ĐỘNG HỌC TẬP</h2>
+          <img src="img/DHD1-1611500718160.gif" alt="" />
+        </article>
+      </aside>
+      <div class="sec">
+        <p>ĐĂNG KÝ THÔNG TIN</p>
+        <form action="">
+          <fieldset>
+            <legend>thông tin của bạn</legend>
+            <label for="lblHoTen">Họ Tên:</label>
+            <input
+              type="text"
+              name="txtHoTen"
+              id="txtHoTen"
+              placeholder="Nhập họ và tên"
+              required
+              minlength="30"
+            />
+            <br /><br />
+            <label for="lblCMND">Số CMND</label>
+            <input
+              type="text"
+              name="txtCMND"
+              id="txtCMND"
+              placeholder="Nhập số CMND"
+              required
+              minlength="20"
+            /> <br> <br>
+            <label for="date"> Ngày sinh:</label>
+            <input type="date" name="date" id="date" placeholder="nhập ngày sinh" required pattern="dd/MM/yyyy"> <br><br>
+            <label for="lblGT"> Giới tính: </label> <br>
+            <input type="radio" name="GT" id="radNam">Nam
+            <input type="radio" name="GT" id="radNu">Nu <br> <br>
+            <input type="submit" value="GO" style="text-align: center;">
+          </fieldset>
+        </form>
+      </div>
+    </section>
+    <footer>
+        <fieldset>
+            <legend>Thông tin liên hệ</legend>
+            <p>Trần Khánh Linh</p><br>
+            <p>20065731</p>
+        </fieldset>
+    </footer>
+  </body>
+</html>
